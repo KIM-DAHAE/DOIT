@@ -1,0 +1,15 @@
+@charser "utf-8";
+.tab.list {height:160px;}
+.tab.list ul {position:relative;border-bottom:1px solid #ccc;font-family:Sans-serif;font-size:12px;}
+.tab.list ul:after {content:'';display:block;clear:both;}
+.tab.list li {float:left;margin-left:-1px;}
+.tab.list li a {position:relative;float:left;border:1px solid #eee;border-bottom-color:#ccc;background-color:#fafafa;color:#666;}
+.tab.list li a span {display:inline-block;padding:6px 25px;letter-spacing:-1px;cursor:pointer;}
+.tab.list li ul {width:100%;position:absolute;top:40x;left:0px;border:0;}
+.tab.list li ul:after {content:'';display:block;clear:both;}
+.tab.list li li {float:none;position:relative;margin:0 0 8px 0;color:#999;}
+.tab.list li li a {float:none;border:0;color:#666;font-weight:normal;background:transparent;letter-spacing:normal;}
+.tab.list li li a:hover,
+.tab.list li li a:active,
+.tab.list li li a:focus {color:#000;text-decoration:underline;}
+.tab.list li li .time {position:absolute;top:0;right:0;color:#767676;}

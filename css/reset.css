@@ -1,3 +1,4 @@
+@charset "utf-8";
 /* reset */
 *, *:before, *:after {box-sizing:border-box}
 body {-webkit-text-size-adjust:none; font-weight:400; line-height:1.5; font-size:14px; letter-spacing:-.4px; font-family:'Roboto', 'NotoSansKR', 'Malgun Gothic', '맑은 고딕', sans-serif; color:#333} 
